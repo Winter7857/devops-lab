@@ -2,7 +2,7 @@ import pytest,unittest
 from app.calculator import add, subtract, multiply, divide
 
 def test_add():
-    assert add(2, 3) == 7
+    assert add(2, 3) == 5
     assert add(-1, 1) == 0
 
 def test_subtract():
